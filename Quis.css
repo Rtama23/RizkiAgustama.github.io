@@ -1,0 +1,445 @@
+body {
+				padding: 0;
+				margin: auto;
+				background-color: #ddd;				
+				background-image: url('G/Winter2485_rectangle.jpg');
+				background-size: cover;   
+				
+			
+		 height:1800px;
+				border: 4px solid black;
+}
+
+
+.A{
+			width: 90%;
+			height: 80px;
+			margin: 20px auto;
+			border: 10px double black;	
+			display: flex;
+			
+			background-color: #4c4c4c;
+			
+			border-radius:20px;
+}
+
+.Aa{
+			width: 25%;
+			height: 50px;
+			
+			background: url('G/Love life4012_square.jpg');
+			
+			border: 5px solid black;
+			color: #eee;
+			text-align: center;
+			line-height: center;
+			margin: auto;
+			display: flex;
+			
+			
+		
+
+			
+			border-radius: 15px;
+}
+
+.Aa H2{
+				margin: auto;
+				text-shadow: 3px 2px black;
+				
+}
+
+.B{
+				width: 90%;
+		 	height: 320px;
+		 	margin: 20px auto;
+	 		border: 10px solid black;	
+	 		background: #5B4C4C4C;
+	  	border-radius: 50px;
+		 	display: flex;
+	
+		 	
+		 	
+}
+
+.load{
+  background-color: #4c4c4c;  background-size: cove;
+  width: 40px;
+  height: 80px;
+   
+}
+.loading{
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: grid;
+  
+}
+
+.over-load{
+  width: 180px;
+  height: 80px;
+  
+      
+  
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.text{
+  align-self: center;
+  justify-self: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.p1{
+  animation: load 0.7s linear infinite;
+  animation-delay: 0.2s;
+}
+.p2{
+  animation: load 0.7s linear infinite;
+  animation-delay: 0.3s;
+}
+.p3{
+  animation: load 0.7s linear infinite;
+  animation-delay: 0.4s;
+}
+.p4{
+  animation: load 0.7s linear infinite;
+  animation-delay: 0.5s;
+}
+
+.C{
+			width: 90%;
+			height: 120px;
+			margin: 20px auto;
+			border: 10px solid black;	
+			display: flex;
+			
+			background: #4c4c4c;
+			
+			border-radius: 20px;
+}
+
+.Cc{
+			width: 45%;
+			height: 80px;
+			background-color: gray;
+			border: 15px double black;
+			color: white;
+			text-align: center;
+			line-height: center;
+			margin: auto;
+			display: flex;
+			
+			
+			border-radius: 15px;
+}
+
+
+
+.Cc audio{
+				margin: auto;
+}
+
+.D{
+				width: 100%;
+				height: 320px;
+				display: flex;
+			/* background-color: gray;*/
+			justify-content: center;
+				align-items: center;
+		 	box-sizing: border-box;
+			 margin: 20px auto;
+}
+
+.Dd{
+				width: 87%;
+				height: 290px;
+  		background-color: #5B4C4C4C;
+				border-radius: 50px;
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+				box-sizing: border-box;
+				border: 10px solid black;
+}
+
+.Dd div{
+				width: 27%;
+				height: 220px;
+				background-color: gray;
+				border: 10px solid black;
+}
+
+.Dd1{
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				border-bottom-left-radius: 50px;
+				border-top-left-radius: 50px;
+				border-top-right-radius: 10px;			
+				border-bottom-right-radius: 10px;
+				
+				background-image: url('G/Think more3900_square.jpg');
+				background-size: 100% 100%;
+				
+}
+
+.Dd2{
+				width: 100%;
+				height: 100%;
+				border-bottom-left-radius: 10px;
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;			
+				border-bottom-right-radius: 10px;
+				
+				
+		 	background-image: url('G/PicsArt_11-18-02.25.12.jpg');
+				background-size: 100% 100%;
+}
+
+.Dd3{
+				width: 100%;
+				height: 100%;
+				border-bottom-left-radius: 10px;
+				border-top-left-radius: 10px;
+				border-top-right-radius: 50px;			
+				border-bottom-right-radius: 50px;
+				
+				background-image: url('G/Love life4012_square.jpg');
+				background-size: 100% 100%;
+}
+
+.E{
+				width: 100%;
+				height: 160px;
+				display: flex;
+			justify-content: center;
+				align-items: center;
+		 	box-sizing: border-box;
+			 margin: 20px auto;
+			 display: flex;
+}
+
+.Ee{
+				width: 82%;
+				height: 160px;
+				background-color: gray;
+				border-bottom-left-radius: 50px;
+				border-top-left-radius: 50px;
+				border-bottom-right-radius: 50px;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				box-sizing: border-box;
+				border: 10px solid black;
+				
+}
+
+.Ee div{
+				width: 27%;
+				height: 110px;
+				background-color: #4c4c4c;
+				border: 5px solid black;
+				color: white;
+				font-size: 23px;
+				font-style:italic;
+}
+
+
+
+.Ee1{
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				border-bottom-left-radius: 50px;
+				border-top-left-radius: 50px;
+				border-bottom-right-radius: 50px;
+				opacity: 1;
+				display: flex;
+				
+}
+
+.Ee1 H1{
+				margin: auto;
+				text-shadow: 0 0 20px black;
+}
+
+.Ee2{
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				border-bottom-left-radius: 50px;
+				border-top-left-radius: 50px;
+				border-bottom-right-radius: 50px;
+				overflow: hidden;
+				display: flex;
+}
+
+.Ee2 H1{
+				margin: auto;
+				text-shadow: 0 0 20px black;
+}
+.Ee3{
+				width: 100%;
+				height: 100%;
+				border-bottom-left-radius: 50px;
+				border-top-left-radius: 50px;
+				border-bottom-right-radius: 50px;
+				display: flex;
+}
+
+.Ee3 H1{
+				margin: auto;
+				text-shadow: 0 0 20px black;
+}
+
+
+.F{
+				width: 90%;
+				height: 320px;
+				border: 5px solid black;
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+				margin: auto;
+				border-radius: 30px;
+				
+}
+
+.F div{
+				width: 45%;
+				height: 280px;
+				border: 5px dotted black;
+				justify-content: space-around;
+				/*display: flex; */
+				text-decoration: 5px dotted black;
+				
+				
+}
+
+.F1{
+				background: #5B4C4C4C;
+				
+				
+}
+
+.F2{
+				background: #5B4C4C4C;
+}
+
+.F2 H1{
+				text-align: center;
+	/*			margin-left: 30px;*/
+				line-height: 60px;
+				color: white;
+				font-style:italic;
+				text-shadow: 0 0 20px black;
+}
+
+
+.ring{
+ position: absolute;
+	top: 1345px;
+	left: 28%;
+	transform: translate(-50%, -50%);
+	width: 250px;
+	height: 250px;
+	background: transparent;
+	border: 3px solid #3c3c3c;
+	border-radius: 50%;
+	text-align: center;
+	justify-content: center;
+	line-height: 30px;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-shadow: 0 0 10px white;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	display: flex;
+}
+
+.ring h2{
+				margin: auto;
+				}
+				
+.ring:before{
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	width: 100%;
+	height: 100%;
+	border: 3px solid transparent;
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+	border-radius: 50%;
+	animation: animateCircle 2s linear infinite;
+	
+}
+
+span{
+	display: block;
+	position: absolute;
+	top: calc(50% - 2px);
+	left: 50%;
+	width: 50%;
+	height: 4px;
+	background-color: transparent;
+	transform-origin: left;
+	animation: animate 2s linear infinite;
+}
+
+span:before{
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: white;
+	top: -6px;
+	right: -8px;
+	box-shadow: 0 0 20px white;
+}
+
+
+@keyframes load{
+  0%{
+    transform: translateY(0);
+  }
+  25%{
+    transform: translateY(15px);
+  }
+  50%{
+    transform: translateY(35px);
+  }
+  75%{
+    transform: translateY(15px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+@keyframes animateCircle{
+	0%{
+		transform: rotate(0deg);
+	}100%{
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes animate{
+	0%{
+		transform: rotate(45deg);
+	}100%{
+		transform: rotate(405deg);
+	}
+}
